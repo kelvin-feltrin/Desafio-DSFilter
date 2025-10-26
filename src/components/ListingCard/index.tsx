@@ -1,14 +1,19 @@
+import type { ProductDTO } from '../../models/product';
 import './styles.css';
 
-export default function ListingCard() {
+type Props = {
+    product: ProductDTO;
+}
+
+export default function ListingCard({ product } : Props) {
     return (
         <section className="dsc-listing-card-container">
             <div className='dsc-listing-card-content-container'>
                 <span className='dsc-listing-card-content-label'>
-                    PC Gamer Pro
+                    {product.name}
                 </span>
                 <span className='dsc-listing-card-content-value'>
-                    R$ 1200.00
+                    {product.price.toFixed(2)}
                 </span>
             </div>
         </section>
