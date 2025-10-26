@@ -1,6 +1,6 @@
 # DsFilter
 
-* Leia em [Português]()
+* Leia em [Português](https://github.com/kelvin-feltrin/Desafio-DSFilter/blob/main/README-pt.md)
 
 ## About the project
 The "DSFilter" is a project about listing products and filter them by price. It's a React project to practice concepts such as creating components, following a template on Figma, search a list of data and share a value between components using Context API.
