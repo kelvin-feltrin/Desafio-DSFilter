@@ -1,0 +1,31 @@
+.dsc-form-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dsc-form-container input, 
+.dsc-form-container button {
+    max-width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.dsc-form-container input {
+    border: 1px solid var(--dsc-color-border-primary);
+    padding: 0 10px;
+}
+
+.dsc-form-container input:focus { 
+    outline: none;
+}
+
+.dsc-form-container button {
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    color: var(--dsc-color-font-primary);
+    background-color: var(--dsc-color-bg-tertiary);
+}

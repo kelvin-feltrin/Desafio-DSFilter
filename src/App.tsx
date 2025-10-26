@@ -1,5 +1,11 @@
+import Header from "./components/Header";
+import ListingBody from "./routes/ListingBody";
+
 export default function App() {
   return (
-    <h1>Hello World!</h1>
+    <>
+      <Header />
+      <ListingBody />
+    </>
   )
 }
